@@ -1,0 +1,42 @@
+/* :root{
+    --color1: #cccc66;
+    --color2: #a6bf73;
+    --color3: #80b380;
+    --color4: #59a68c;
+    --color5: #339999;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Cantarell&display=swap');
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #262a2e;
+    position: fixed;
+    width: 100%;
+    color: whitesmoke;
+    padding: 10px;
+}
+.link{
+    text-decoration: none;
+    color: whitesmoke;
+    margin-right: 30px;
+    font-size: 20px;
+    font-family: 'Cantarell', sans-serif;
+}
+.link:hover{
+    color: #FF6600;
+}
+
+.favicon{
+    width: 65px;
+    margin-left: 10px;
+
+}
+
+@media (width<500px) {
+    .link{
+        font-size: 16px;
+    }
+}

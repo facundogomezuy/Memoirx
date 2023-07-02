@@ -1,0 +1,55 @@
+.td{
+    background-size: cover;
+    background-position: center;
+    height: 115px;
+    width: 170px;
+    border: 1px solid black;
+    margin: 100px;
+    background-repeat: no-repeat;
+    transition: transform 0.5s ease;
+}
+.tr{
+    width: 100px;
+    border: 1px solid black;
+}
+.tbody{
+    width: 1000px;
+}
+.modal {
+    display:none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px); /* Agrega el efecto de desenfoque */
+    justify-content: center;
+    align-items: center;
+}
+.modalcontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 70%;
+    height: 20%;
+}
+.closeModalBtn{
+    margin-top: 40px;
+    width: 150px;
+    height: 60px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.flipped{
+    background-size: 120px 100px;
+}
+
+
+  
