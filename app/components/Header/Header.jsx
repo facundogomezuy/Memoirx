@@ -5,7 +5,7 @@ import styles from "./header.module.css"
 const Header = () =>{
     return(
         <header className={styles.header}>
-            <Link href={'/'} className={styles.link}><img src="/faviconWhite.png" className={styles.favicon}/></Link>
+            <Link href={'/'} className={styles.link}><img src="/FaviconWhite.png" className={styles.favicon}/></Link>
             {/* style={{width:'600px', display:'flex'}} */}
             <div > 
                 <Link href={'/games/countries'} className={styles.link}>Paises</Link>
