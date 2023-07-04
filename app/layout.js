@@ -1,5 +1,7 @@
 import Header from "./components/Header/Header"
 import "../styles/globals.css"
+import { Analytics } from '@vercel/analytics/react';
+
 export const metadata = {
   title: 'MemoirX',
   description: '',
@@ -11,7 +13,8 @@ export default function RootLayout({ children }) {
       <body>
         <Header />
         {children}
-        </body>
+        <Analytics />
+      </body>
     </html>
   )
 }
